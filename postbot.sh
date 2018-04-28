@@ -31,7 +31,7 @@ echo $caption
 if [[ "$checkvideo" == *"is_video"* ]]; then
 echo "Video."
 else
-instapy -u "$username" -p "$password" -f "$lastpost" -t "$caption Créditos: @$page"
+instapy -u "$username" -p "$password" -f "$lastpost" -t "$caption Credits: @$page"
 sleep 1800
 fi
 fi
